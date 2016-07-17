@@ -16,8 +16,9 @@ import java.util.Date;
 
 public class MainActivity extends Activity {
 
-    public static final String TIME = "com.example.xy.time";
     private final String LOG_TAG = "MainActivity";
+    public static final String TIME = "com.example.xy.time";
+
     private TextView version;
 
     private TextView city;

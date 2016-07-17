@@ -57,6 +57,7 @@ public class PrefaceActivity extends Activity {
         setContentView(R.layout.activity_preface);
 
         getApplicationVersion();
+        MessageManager.login();
     }
 
     private void getApplicationVersion() {

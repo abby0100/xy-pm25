@@ -12,6 +12,11 @@ import java.util.Date;
  */
 public class Utils {
 
+    public static final String urlString = "http://10.0.2.15";
+    public static final int expireTime = 3000; // milliseconds
+    public static final String methodGet = "GET";
+    public static final String methodPost = "POST";
+
     public static String getCurrentDate() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return simpleDateFormat.format(new Date());
